@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment", "PersonManagment\PersonManagment.csproj", "{967E023E-2BA8-4E78-962F-2A46828B248F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment.View", "PersonManagment\PersonManagment.View.csproj", "{967E023E-2BA8-4E78-962F-2A46828B248F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment.Infostructure", "PersonManagment.Infostructure\PersonManagment.Infostructure.csproj", "{D14E8B45-8F05-49CD-A321-8CA9B6FD6DE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment.BusinessLogic", "PersonManagment.BusinessLogic\PersonManagment.BusinessLogic.csproj", "{D586B9D6-85E6-493F-B9F9-71562A750A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment.Core", "PersonManagment.Core\PersonManagment.Core.csproj", "{C5E9B14D-C8FC-4A87-A848-C0A8CF10F345}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D586B9D6-85E6-493F-B9F9-71562A750A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D586B9D6-85E6-493F-B9F9-71562A750A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D586B9D6-85E6-493F-B9F9-71562A750A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E9B14D-C8FC-4A87-A848-C0A8CF10F345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E9B14D-C8FC-4A87-A848-C0A8CF10F345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E9B14D-C8FC-4A87-A848-C0A8CF10F345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E9B14D-C8FC-4A87-A848-C0A8CF10F345}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
